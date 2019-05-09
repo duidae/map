@@ -3,7 +3,7 @@ import {Map as LeafletMap, TileLayer} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import "./Map.css"
 
-export class MyMap extends React.Component {
+export class RenewalMap extends React.Component {
   render() {
     return (
       <LeafletMap

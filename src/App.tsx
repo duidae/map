@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import {MyMap} from "./components/Map"
+import {RenewalMap} from "./components/Map"
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <MyMap/>
+      <RenewalMap/>
     </div>
   );
 }
