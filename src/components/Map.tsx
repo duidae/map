@@ -4,12 +4,14 @@ import 'leaflet/dist/leaflet.css';
 import "./Map.css"
 
 export class RenewalMap extends React.Component {
+  private static TAIPEI = {lat: 25.038357847174, lng: 121.54770626982};
+  private static ZOOM_INITIAL = 13.4;
+
   render() {
     return (
       <LeafletMap
-        center={[50, 10]}
-        zoom={6}
-        maxZoom={10}
+        center={RenewalMap.TAIPEI}
+        zoom={RenewalMap.ZOOM_INITIAL}
         attributionControl={true}
         zoomControl={true}
         doubleClickZoom={true}
